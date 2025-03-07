@@ -66,7 +66,7 @@ class _NewsScreenState extends State<NewsScreen> {
 
                 return GestureDetector(
                   onTap: () => _launchURL(news['url']),
-                  child: ListTile(
+                  child: ListTile( 
                     leading:
                         news['image'] != null && news['image'].isNotEmpty
                             ? Image.network(
